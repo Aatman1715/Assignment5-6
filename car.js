@@ -7,7 +7,6 @@ class Car {
       this.price = price;
       this.gas = gas;
     }
-  
     honk() {
       console.log("Tuut tuut");
       console.log(`Brand: ${this.brand}`);
