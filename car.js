@@ -18,7 +18,6 @@ class Car {
       console.log(`Gas: ${this.gas} litres`);
       console.log("------------------------");
     }
-  
     race(turns) {
       for (let i = 1; i <= turns; i++) {
         // Each turn, cars lose 5 litres of gas
